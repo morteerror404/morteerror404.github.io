@@ -1,13 +1,5 @@
-HTML{
-    background-color: black;
-    color: white;
-    
-}
+/* #-----#-----# DECLARANDO CORES #-----#-----# */
 
-TopMenu{
-    column-count: 4;
-    color: #cfcdcd;
-}
 
 /*  linear-gradient(90deg, rgba(55,55,69,1) 0%, rgba(98,61,164,1) 29%, rgba(170,47,212,1) 51%, rgba(55,55,69,1) 100%); */ 
 
@@ -18,6 +10,39 @@ TopMenu{
 #aa2fd4 - pseudo rosa
 #cfcdcd - branco texto
 */
+
+/* #-----#-----# DECLARANDO PARTICIONAMENTO DE GRID #-----#-----# */
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 1 / 6 / 6; }
+.div3 { grid-area: 5 / 1 / 6 / 6; } 
+
+/* #-----#-----# DECLARANDO DEFAUT #-----#-----# */
+
+HTML{
+    background-color: black;
+    color: white;
+    
+}
+
+/* #-----#-----# DECLARANDO MENU SUPERIOR #-----#-----# */
+
+.TopMenu{
+    column-count: 4;
+    color: #cfcdcd;
+}
+
+/*body{} */
+
+/* #-----#-----# DECLARANDO FOOTER #-----#-----# */
 
 footer{
     align-self: baseline;

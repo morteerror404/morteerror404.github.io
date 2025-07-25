@@ -11,11 +11,6 @@ var help;
 /* DECLARANDO VARIAVEIS DO BODY */
 
 
-
-
-/* DECLARANDO VARIAVEIS DO CTF */
-
-
 /* FUNCOES MENU NAVEGACAO */
 
 function selectPage(home, projects, history, employments,other,help) {
